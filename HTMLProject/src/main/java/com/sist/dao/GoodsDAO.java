@@ -15,7 +15,7 @@ public class GoodsDAO {
 		} catch (Exception e) {}
 	}
 	public void getConnection() {
-		try {
+		try { 
 			conn = DriverManager.getConnection(URL, "hr3", "happy");
 		} catch (Exception e) {}
 	}
