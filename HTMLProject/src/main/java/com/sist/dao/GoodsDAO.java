@@ -3,6 +3,7 @@ package com.sist.dao;
 import java.sql.*;
 import java.util.*;
 
+
 public class GoodsDAO {
 	private static GoodsDAO dao;
 	private Connection conn;
